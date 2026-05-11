@@ -200,6 +200,7 @@ await browser_wait(tab_id, selector='[data-testid="content"]', timeout_ms=5000)
 
 ### P6: Shadow DOM
 
+Shadow DOM is a browser feature that hides component internals from the main page DOM tree, making automation selectors harder to target.
 **Sites:** Components using Shadow DOM, Lit elements
 
 **Detection:**
